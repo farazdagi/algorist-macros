@@ -1,0 +1,10 @@
+[package]
+name = "algorist-macros"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["Victor Farazdagi <farazdagi@gmail.com>"]
+
+[dependencies]
+quote = "1.0"
+syn = "2.0"
