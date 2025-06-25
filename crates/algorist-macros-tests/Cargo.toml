@@ -1,0 +1,8 @@
+[package]
+name = "algorist-macros-tests"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+algorist-macros = { path = "../../../algorist-macros" }
+algorist = { path = "../../../algorist" }

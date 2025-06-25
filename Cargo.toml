@@ -4,7 +4,18 @@ version = "0.1.0"
 edition = "2024"
 license = "MIT"
 authors = ["Victor Farazdagi <farazdagi@gmail.com>"]
+description = "Procedural macros for the `algorist` crate"
+homepage = "https://github.com/farazdagi/algorist-macros"
+repository = "https://github.com/farazdagi/algorist-macros"
+documentation = "https://docs.rs/algorist-macros"
+readme = "README.md"
+keywords = ["algorithms", "data-structures", "codeforces"]
+categories = ["algorithms", "data-structures"]
+
+[lib]
+proc-macro = true
 
 [dependencies]
+proc-macro2 = "1.0"
 quote = "1.0"
-syn = "2.0"
+syn = { version = "2.0", features = ["full"] }
