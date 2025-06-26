@@ -18,7 +18,7 @@ use {
 ///     writeln!(w, "Sum: {}", a + b);
 /// }
 /// ```
-/// 
+///
 /// Macro will expose `scan` and `w` variables to the function body, where:
 /// - `scan` is an instance of `algorist::io::Scanner` for reading input.
 /// - `w` is an instance of `std::io::Write` for writing output.
